@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap');
+
+:root{
+    --verdoso: #216221;
+    --amarillo: #FFDF31;
+    --verde: #54DB69;
+    --blanco: #f9f9f9;
+    --naranjo: #FF5C31;
+}
+
+header .logo{
+    font-size: 2rem;
+    color: var(--blanco);
+}
+
+
+header .navbar a{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    color: var(--blanco);
+}
+
+header .navbar a:hover{
+    color: var(--amarillo);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:var(--verdoso);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .4);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+body {
+    background-size: cover;
+    background-image: url(/paginabonita/imagenes/fondoturbio.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+#doughnut{
+    background: #d4e3d6;
+    border-radius: 15px;
+}
+
+.pagina {
+    padding-top: 5rem;
+    font-size: medium;
+    color: #f9f9f9;
+}
+
