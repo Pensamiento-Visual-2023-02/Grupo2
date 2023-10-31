@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap');
 
+/* pagina principal*/
+
+
+
 :root{
     --verdoso: #216221;
     --amarillo: #FFDF31;
@@ -7,12 +11,54 @@
     --blanco: #f9f9f9;
     --naranjo: #FF5C31;
 }
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    
+}
+
+
+section{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+}
+.inicio{
+    color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/paginabonita/imagenes/fondoturbio.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:var(--verdoso);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
 
 header .logo{
     font-size: 2rem;
     color: var(--blanco);
 }
-
 
 header .navbar a{
     font-size: 1.2rem;
@@ -24,52 +70,144 @@ header .navbar a:hover{
     color: var(--amarillo);
 }
 
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: none;
-    border: none;
-    text-transform: capitalize;
+.inicio .contenido h3{
+    font-size: 5.5rem;
+
+}
+
+.inicio .contenido p{
+    font-size: 1.7rem;
+    padding: 2rem 0;
+}
+
+
+
+.bloque1 {
+    background-color: #216221;  
+}
+
+
+.bloque3 {
+    background-color: rgb(77, 194, 200);
+    padding-top: 4rem;
 }
 
 
 
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color:var(--verdoso);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .4);
-    padding: 2rem 9%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
+.mapareal {
+    padding-top: 5rem;
+    padding-left: 12rem;
 }
 
-body {
-    background-size: cover;
+
+.fondomapa {
     background-image: url(/paginabonita/imagenes/fondoturbio.jpg);
+    background-size: cover;
+}
+
+
+
+
+.contenido{
+    padding-left: 2rem;
+}
+
+
+.bloque1{
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+/* parte thiare */
+
+.containerthiare {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    text-align: left;
+    padding: 0px 0;
+    
+
+  }
+  .timeline {
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .timeline ul {
+    list-style: none;
+  }
+  .timeline ul li {
+
+    padding: 10px;
+    background-color:#2A9767;
+    color: white;
+
+  }
+  .timeline ul li:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-content h1 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 55px;
+    margin: 15px;
+    position: relative;
+  }
+  .timeline-content p {
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 300;
+    margin: 15px;
+  }
+  
+
+  .grafico {
+    padding-left: 22rem;
+    width: auto;
+    height: auto;
+  }
+
+
+
+
+.graficomapa{
+    padding-left: 7rem;
+    padding-top: 2rem;
 }
 
 
-#doughnut{
-    background: #d4e3d6;
-    border-radius: 15px;
+.titular_bloque3{
+    padding-left: 1.7rem;
+
 }
 
-.pagina {
-    padding-top: 5rem;
-    font-size: medium;
-    color: #f9f9f9;
+
+
+.parrafomapa{
+    padding-top: 1rem;
+    padding-left: 1.7rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+
 }
 
+
+.titular_bloque3{
+    font-size: 3rem;
+}
+
+
+.content_bloque3{
+    padding-top: 3rem;
+}

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap');
 
+/* pagina principal*/
+
+
 
 :root{
     --verdoso: #216221;
@@ -83,12 +86,10 @@ header .navbar a:hover{
     background-color: #216221;  
 }
 
-.bloque2 {
-    background-color: #FF5C31;
-}
 
 .bloque3 {
-    background-color: aquamarine;
+    background-color: rgb(77, 194, 200);
+    padding-top: 4rem;
 }
 
 
@@ -110,4 +111,103 @@ header .navbar a:hover{
 
 .contenido{
     padding-left: 2rem;
+}
+
+
+.bloque1{
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+/* parte thiare */
+
+.containerthiare {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0px 0;
+    
+
+  }
+  .timeline {
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .timeline ul {
+    list-style: none;
+  }
+  .timeline ul li {
+
+    padding: 10px;
+    background-color:#2A9767;
+    color: white;
+
+  }
+  .timeline ul li:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-content h1 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 55px;
+    margin: 15px;
+    position: relative;
+  }
+  .timeline-content p {
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 300;
+    margin: 15px;
+  }
+  
+
+  .grafico {
+    padding-left: 22rem;
+    width: auto;
+    height: auto;
+  }
+
+
+
+
+.graficomapa{
+    padding-left: 7rem;
+    padding-top: 2rem;
+}
+
+
+.titular_bloque3{
+    padding-left: 1.7rem;
+
+}
+
+
+
+.parrafomapa{
+    padding-top: 1rem;
+    padding-left: 1.7rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+
+.titular_bloque3{
+    font-size: 3rem;
+}
+
+
+.content_bloque3{
+    padding-top: 3rem;
 }

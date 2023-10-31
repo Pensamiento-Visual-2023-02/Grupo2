@@ -11,31 +11,65 @@
     <header>
         <a href="/paginabonita/bien/pag.html" class="logo">SEV</a>
         <nav class="navbar">
-            <a href="/paginabonita/bien/pag.html">Home</a>
-            <a href="/paginabonita/graficos/graficodiego/index.html">Consumo energético</a>
-            <a href="/paginabonita/graficos/graficosthiare/grafico1/b1.html">GEI</a>
-            <a href="/paginabonita/graficos/ELMAPA/elmapa.html">mapa</a>
+            <a href="/paginabonita/bien/pag.html">Inicio</a>
+
+            <a href="/paginabonita/graficos/graficosthiare/grafico1/b1.html">EGEI</a>
+            <a href="/paginabonita/graficos/ELMAPA/elmapa.html">Mapa</a>
         </nav>
 
     </header>
 
-
-    <section class="pagina_barras">
-        <h3 class="titulo_pagbarras">
-            Emisiones de gases de efecto invernadero
-        </h3>
     <div class="container">
-        <div class="b">
-            <canvas id="hidro" width="300" height="300"></canvas>
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="timeline-content">
+                <h1>¿Qué es el efecto invernadero?</h1>
+                <p>Es el equilibrio de temperatura que se establece al interior de la atmósfera, entre la energía que ingresa desde el sol, la que reflecta al contacto con la superficie y aquella que se queda al interior del “invernadero” absorbida por los gases de efecto invernadero.</p>
+                <h1>¿Qué son las emisiones y absorciones de gases de efecto invernadero?</h1>
+                <p>Los gases de efecto invernadero son compuestos químicos que se encuentran en la atmósfera de la Tierra y tienen la capacidad de retener el calor solar, lo que contribuye al calentamiento global y al cambio climático. Algunos de los gases de efecto invernadero más comunes incluyen el dióxido de carbono (CO2), el metano (CH4) y el óxido nitroso (N2O). Estos gases son liberados a la atmósfera principalmente a través de actividades humanas, como la quema de combustibles fósiles, la deforestación y la agricultura intensiva. </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h1>¿Por qué hablar de esto?</h1>
+                <p>La dependencia mundial de los combustibles fósiles en la generación de energía eléctrica contribuye al aumento de emisiones de gases de efecto invernadero (GEI) y, en consecuencia, al incremento de los impactos del cambio climático.</p>
+                <p>Es por esto, que a continuación te presentaremos datos que representan el cambio de emisiones de gases de efecto invernadero, con respecto al tipo de fuente con los cuales se genera la energía en Chile.</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h1>Generación eléctrica por tipo de fuente</h1>
+                <p>Aquí podemos observar los diversos tipos de fuentes de energía, y la cantidad de producción con respecto a las demás fuentes, entre 1990 y 2020. (si gustas, puedes maximizar el grafico, y estudiar su información a más detalle)</p>
+                <div class="grafico">
+                  <iframe title="Grafico generación eléctrica por tipo de fuente 1990-2020" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMDgxOTA0MDMtZGYyNS00MjdmLWFkMzktMmI4YjFjNWZjZWY0IiwidCI6ImQxYmZlZDMxLWFlOWYtNDY1NC05MmYzLTNkMmJjZDgyN2E5ZCIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
+                <p>En dicho gráfico, podemos apreciar el aumento del uso de las energías renovables, tales como eólica y solar.</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h1>Emisiones GEI</h1>
+                <p>Aquí podemos observar como ha aumentado las emisiones de gases de efecto invernadero entre 1990 y 2020.</p>
+                <div class="grafico">
+                  <iframe title="Linea" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOGIyMmU0YmUtYWM0ZS00YjMxLTkzZWItZGZjZmVlY2FlNzdkIiwidCI6ImQxYmZlZDMxLWFlOWYtNDY1NC05MmYzLTNkMmJjZDgyN2E5ZCIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h1>Conclusión</h1>
+                <div class="grafico">
+                  <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZmI0NGM3ODMtMWM2ZC00YmQ1LTgyYzAtODY0MDA2Y2Q3Yzc2IiwidCI6ImQxYmZlZDMxLWFlOWYtNDY1NC05MmYzLTNkMmJjZDgyN2E5ZCIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
+                <p>Aquí podemos observar el cambio a causa del implemento de energias renovables. La adopción de estas energías es esencial para la disminución de los gases de efecto invernadero, lo que contribuye significativamente a la lucha contra el cambio climático y a la protección del medio ambiente. Además, promueve una economía más sostenible, un futuro más limpio y saludable para las generaciones futuras.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="b">
-            <canvas id="carbon" width="300" height="300"></canvas>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="b1.js"></script>
-    <script src="b2.js"></script>
+      </div>
 
-    </section>
+   
 </body>
 </html>
